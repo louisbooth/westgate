@@ -1,0 +1,28 @@
+{
+  "name": "westgate",
+  "version": "1.0.0",
+  "description": "Westgate Draft",
+  "main": "index.js",
+  "homepage": "https://louisbooth.github.io/westgate",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "sass": "node-sass -w scss/ -o docs/css/ --recursive",
+    "deploy": "gh-pages -d docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisbooth/westgate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/louisbooth/westgate/issues"
+  },
+  "homepage": "https://github.com/louisbooth/westgate#readme",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
